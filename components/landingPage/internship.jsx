@@ -1,11 +1,12 @@
 export default function SectionFour() {
   return (
-    <section className="text-center">
+    <section className="text-center px-4">
       <h2 className="text-3xl md:text-4xl font-bold text-primary mb-6">
         Internship Experience
       </h2>
       <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-8">
-        <div className="md:w-1/2 text-left">
+        {/* ข้อมูลการฝึกงาน */}
+        <div className="w-full md:w-1/2 text-center md:text-left">
           <h3 className="text-xl font-semibold text-gray-800">
             SS L Logistics Co., Ltd.
           </h3>
@@ -18,7 +19,8 @@ export default function SectionFour() {
           </p>
         </div>
 
-        <div className="md:w-1/2 flex justify-center">
+        {/* รูปภาพ */}
+        <div className="w-full md:w-1/2 flex justify-center">
           <img
             src="/images/Internship.jpeg"
             alt="Internship Experience"
