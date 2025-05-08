@@ -1,7 +1,6 @@
-export default function SectionOne() {
+export default function aboutMe() {
   return (
     <section className="mt-12 flex flex-col md:flex-row items-center justify-between bg-base-100 text-center md:text-left px-6">
-      {/* ฝั่งซ้าย: Text */}
       <div className="max-w-lg md:ms-16 md:w-1/2">
         <h1 className="text-4xl md:text-6xl font-bold text-primary mb-4">
           Hi, I'm Pichetphong
@@ -16,16 +15,15 @@ export default function SectionOne() {
           talented team.
         </p>
         <div className="flex justify-center md:justify-start gap-4">
-          <a href="#projects" className="btn btn-primary">
+          <a href="#sectionFive" className="btn btn-primary">
             View My Work
           </a>
-          <a href="#contact" className="btn btn-outline">
+          <a href="#sectionSix" className="btn btn-outline">
             Contact Me
           </a>
         </div>
       </div>
 
-      {/* ฝั่งขวา: รูปภาพ */}
       <div className="mt-8 md:mt-0 md:w-1/2 flex justify-center">
         <img
           src="/images/Pichetphong.jpg"
