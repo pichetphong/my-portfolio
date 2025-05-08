@@ -1,6 +1,6 @@
 export default function SectionSix() {
   return (
-    <section className="py-12 bg-base-100 text-center">
+    <section id="sectionSix" className="py-12 bg-base-100 text-center">
       <h2 className="text-3xl md:text-4xl font-bold text-primary mb-6">
         Contact Me
       </h2>

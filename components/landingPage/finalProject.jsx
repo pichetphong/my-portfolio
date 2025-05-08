@@ -1,10 +1,12 @@
 export default function SectionFive() {
   return (
-    <section className="py-12 bg-base-100 text-center">
+    <section id="sectionFive" className="py-12 bg-base-100 text-center">
       <h2 className="text-3xl md:text-4xl font-bold text-primary mb-6">
-        AI Meal Planning System
+        Bachelor’s Final Project
       </h2>
-      <p className="text-lg text-gray-600 mb-8">Full-stack Web Application</p>
+      <p className="text-lg text-gray-600 mb-8">
+        AI Meal Planning System | Full-stack Web Application
+      </p>
       <div className="max-w-4xl mx-auto text-left">
         <p className="text-gray-700 mb-4">
           A web-based meal planning system using AI to generate daily
@@ -40,7 +42,7 @@ export default function SectionFive() {
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/XRx2vo9UeWg"
+          src="https://www.youtube.com/embed/tnMxEobQdj4"
           title="AI Meal Planning System Demo"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen

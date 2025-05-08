@@ -2,3 +2,7 @@
 @plugin "daisyui" {
   themes: autumn --default;
 }
+
+body {
+  padding-top: 4rem;
+}
