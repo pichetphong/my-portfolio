@@ -1,27 +1,31 @@
-export default function SectionThree() {
-  const education = [
-    {
-      degree: 'Bachelor of Science in Computer Science',
-      institution: 'University of the Thai Chamber of Commerce',
-      year: '2021 - 2025',
-    },
-  ];
-
+export default function Education() {
   return (
-    <section className="text-center">
-      <h2 className="text-3xl md:text-4xl font-bold text-primary mb-6">
-        Education
-      </h2>
-      <div className="max-w-4xl mx-auto">
-        {education.map((edu, index) => (
-          <div key={index} className="p-4 mb-6 shadow-md rounded-lg text-left">
-            <h3 className="text-xl font-semibold text-gray-800">
-              {edu.degree}
-            </h3>
-            <p className="text-gray-600">{edu.institution}</p>
-            <p className="text-gray-500 text-sm">{edu.year}</p>
+    <section id="education" className="py-16 md:py-20 px-6">
+      <div className="max-w-6xl mx-auto">
+        <div className="mb-8">
+          <p className="font-mono text-xs text-[var(--color-accent)] mb-3 tracking-wider uppercase">
+            04 — Education
+          </p>
+          <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-gradient">
+            Education
+          </h2>
+        </div>
+
+        <div className="glass rounded-2xl p-6 md:p-7 max-w-3xl">
+          <div className="flex flex-col md:flex-row md:items-baseline md:justify-between gap-1">
+            <div>
+              <h3 className="text-lg md:text-xl font-semibold text-[var(--color-text)]">
+                Bachelor of Science in Computer Science
+              </h3>
+              <p className="text-sm text-[var(--color-text-muted)] mt-0.5">
+                University of the Thai Chamber of Commerce
+              </p>
+            </div>
+            <span className="font-mono text-xs text-[var(--color-text-subtle)] shrink-0">
+              2021 — 2025
+            </span>
           </div>
-        ))}
+        </div>
       </div>
     </section>
   );

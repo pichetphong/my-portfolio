@@ -14,21 +14,19 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: 'Pichetphong - Portfolio',
+  title: 'Pichetphong — Odoo Developer & Full-Stack Engineer',
   description:
-    'Experienced Fullstack Developer with a passion for building scalable and user-friendly web applications. Explore my portfolio of problem-solving projects.',
+    'Odoo Developer & Full-Stack Engineer specializing in Odoo 17/18/19, Python, and modern web applications. Building scalable ERP solutions and clean digital products.',
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col min-h-screen overflow-x-hidden`}
+        className={`${geistSans.variable} ${geistMono.variable} font-sans antialiased flex flex-col min-h-screen overflow-x-hidden`}
       >
         <Navbar />
-        <main className="flex-grow max-w-screen overflow-hidden">
-          {children}
-        </main>
+        <main className="flex-grow w-full">{children}</main>
         <Footer />
       </body>
     </html>
